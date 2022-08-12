@@ -43,7 +43,7 @@ print("----------------------------------------------------------")
 
 nombre_de_texto = input("Elige un nombre para guardarlo: ")
 
-with open(nombre_de_texto, "w",  encoding="utf-8") as f:
+with open(nombre_de_texto +".txt", "w",  encoding="utf-8") as f:
     for i in transcribir:
         f.write("{}\n".format(i)) 
 
